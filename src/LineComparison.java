@@ -22,6 +22,7 @@ public class LineComparison {
         Coordinates input2 = new Coordinates(w1, w2, z1, z2);
         double line2 = input2.lengthOfLine();
         System.out.println("Length of Line2 is " + line2);
+        input1.equalityOflines(line1,line2);
 
     }
 }
